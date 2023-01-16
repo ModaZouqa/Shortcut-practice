@@ -1,14 +1,39 @@
 .header {
-    height: 50px;
+    height: 100px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly
 }
 
 .logo img {
-    height: 100px;
+    background-color: lightblue;
+    max-width: 155px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.middle-section {
+    background-color: lightcoral;
+    flex: 1;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.Menu {
+    font-size: 30px;
+}
+
+.right-section {
+    background-color: lightblue;
+    width: 200px;
+    margin-right: 100px;
 }
 
 div p {
-    font-size: 16px;
+    background-color: lightcoral;
+    
 }
 
